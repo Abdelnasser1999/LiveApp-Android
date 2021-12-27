@@ -18,7 +18,7 @@ To build and run the sample application, get an App ID:
 3. Save the **App ID** from the Dashboard for later use.
 
 
-5. Update "app/src/main/res/values/strings_config.xml" with your App ID and Access Token.
+4. Update "app/src/main/res/values/strings_config.xml" with your App ID.
   ```xml
   <string name="private_app_id"><#YOUR APP ID#></string>
   ```
@@ -60,18 +60,3 @@ Copy from SDK|Copy to Project Folder
 Open project with Android Studio, connect your Android device, build and run.
       
 Or use `Gradle` to build and run.
-
-
-## Contact Us
-
-- For potential issues, take a look at our [FAQ](https://docs.agora.io/en/faq) first
-- Dive into [Agora SDK Samples](https://github.com/AgoraIO) to see more tutorials
-- Take a look at [Agora Use Case](https://github.com/AgoraIO-usecase) for more complicated real use case
-- Repositories managed by developer communities can be found at [Agora Community](https://github.com/AgoraIO-Community)
-- You can find full API documentation at [Document Center](https://docs.agora.io/en/)
-- If you encounter problems during integration, you can ask question in [Stack Overflow](https://stackoverflow.com/questions/tagged/agora.io)
-- You can file bugs about this sample at [issue](https://github.com/AgoraIO/Basic-Video-Broadcasting/issues)
-
-## License
-
-The MIT License (MIT)
