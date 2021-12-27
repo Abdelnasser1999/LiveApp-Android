@@ -25,9 +25,11 @@ To build and run the sample application, get an App ID:
 4. Generate a temp **Access Token** (valid for 24 hours) from dashboard page with given channel name, save for later use.
 
 5. Update "app/src/main/res/values/strings_config.xml" with your App ID 
-  ```xml
+   ```xml
   <string name="private_app_id"><#YOUR APP ID#></string>
-```xml
+ 
+  ```
+
 
 ### Integrate the Agora Video SDK
 
