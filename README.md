@@ -1,4 +1,4 @@
-# Open Live for Android
+#  LiveApp for Android
 
 With this app, you can:
 
