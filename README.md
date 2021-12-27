@@ -1,8 +1,8 @@
-# Open Live for Android
+# Live for Android
 
-*English | [中文](README.zh.md)*
 
-The OpenLive for Android Sample App is an open-source demo that will help you get live video broadcasting integrated directly into your Android applications using the Agora Video SDK.
+
+The Live for Android Sample App is an open-source demo that will help you get live video broadcasting integrated directly into your Android applications using the Agora Video SDK.
 
 With this sample app, you can:
 
@@ -11,16 +11,10 @@ With this sample app, you can:
 - Mute / unmute audio
 - Switch camera
 - Setup resolution, frame rate and bit rate
+- real time chating with pubnub.com
 
-## Prerequisites
 
-- Android Studio 3.3 or above
-- Real devices (Nexus 5X or other devices)
-- Some simulators are function missing or have performance issue, so real device is the best choice
 
-## Quick Start
-
-This section shows you how to prepare, build, and run the sample application.
 
 ### Obtain an App ID
 
@@ -30,18 +24,10 @@ To build and run the sample application, get an App ID:
 3. Save the **App ID** from the Dashboard for later use.
 4. Generate a temp **Access Token** (valid for 24 hours) from dashboard page with given channel name, save for later use.
 
-5. Update "app/src/main/res/values/strings_config.xml" with your App ID and Access Token.
+5. Update "app/src/main/res/values/strings_config.xml" with your App ID 
   ```xml
   <string name="private_app_id"><#YOUR APP ID#></string>
-  <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
-  <!-- You will need to deploy your own token server for production release -->
-  <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
-  <string name="agora_access_token"><#YOUR TOKEN#></string>
-  ```
-
-> To ensure communication security, Agora uses tokens (dynamic keys) to authenticate users joining a channel.
->
-> Temporary tokens are for demonstration and testing purposes only and remain valid for 24 hours. In a production environment, you need to deploy your own server for generating tokens. See [Generate a Token](https://docs.agora.io/en/Interactive Broadcast/token_server)for details.
+ 
 
 ### Integrate the Agora Video SDK
 
@@ -80,18 +66,3 @@ Copy from SDK|Copy to Project Folder
 Open project with Android Studio, connect your Android device, build and run.
       
 Or use `Gradle` to build and run.
-
-
-## Contact Us
-
-- For potential issues, take a look at our [FAQ](https://docs.agora.io/en/faq) first
-- Dive into [Agora SDK Samples](https://github.com/AgoraIO) to see more tutorials
-- Take a look at [Agora Use Case](https://github.com/AgoraIO-usecase) for more complicated real use case
-- Repositories managed by developer communities can be found at [Agora Community](https://github.com/AgoraIO-Community)
-- You can find full API documentation at [Document Center](https://docs.agora.io/en/)
-- If you encounter problems during integration, you can ask question in [Stack Overflow](https://stackoverflow.com/questions/tagged/agora.io)
-- You can file bugs about this sample at [issue](https://github.com/AgoraIO/Basic-Video-Broadcasting/issues)
-
-## License
-
-The MIT License (MIT)
